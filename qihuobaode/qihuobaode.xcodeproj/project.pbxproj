@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE6EEC2AEF035FBF3B3BF4F /* libPods-qihuobaode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCD984BC3D617BBAB2E99E1 /* libPods-qihuobaode.a */; };
+		4CBB151A1FD79DF100750A92 /* UIImage+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBB15191FD79DF100750A92 /* UIImage+image.m */; };
 		4CF547711FD53A9900175B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF547701FD53A9900175B93 /* main.m */; };
 		4CF547741FD53A9900175B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF547731FD53A9900175B93 /* AppDelegate.m */; };
 		4CF547771FD53A9900175B93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF547761FD53A9900175B93 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A6BE0ADA788B6453A9F64D /* Pods-qihuobaode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qihuobaode.release.xcconfig"; path = "Pods/Target Support Files/Pods-qihuobaode/Pods-qihuobaode.release.xcconfig"; sourceTree = "<group>"; };
+		4CBB15181FD79DF100750A92 /* UIImage+image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+image.h"; path = "../UIImage+image.h"; sourceTree = "<group>"; };
+		4CBB15191FD79DF100750A92 /* UIImage+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+image.m"; path = "../UIImage+image.m"; sourceTree = "<group>"; };
 		4CF5476C1FD53A9900175B93 /* qihuobaode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qihuobaode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF547701FD53A9900175B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CF547721FD53A9900175B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		4CF547901FD53A9900175B93 /* qihuobaodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qihuobaodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF547941FD53A9900175B93 /* qihuobaodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qihuobaodeUITests.m; sourceTree = "<group>"; };
 		4CF547961FD53A9900175B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCD984BC3D617BBAB2E99E1 /* libPods-qihuobaode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qihuobaode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB8FA8884039A47F5F5703C8 /* Pods-qihuobaode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qihuobaode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-qihuobaode/Pods-qihuobaode.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE6EEC2AEF035FBF3B3BF4F /* libPods-qihuobaode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				4CF547881FD53A9900175B93 /* qihuobaodeTests */,
 				4CF547931FD53A9900175B93 /* qihuobaodeUITests */,
 				4CF5476D1FD53A9900175B93 /* Products */,
+				946A40A0B6C01608C75EC59E /* Pods */,
+				8F0042B10F2CC2310919126F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +115,8 @@
 				4CF547731FD53A9900175B93 /* AppDelegate.m */,
 				4CF547751FD53A9900175B93 /* ViewController.h */,
 				4CF547761FD53A9900175B93 /* ViewController.m */,
+				4CBB15181FD79DF100750A92 /* UIImage+image.h */,
+				4CBB15191FD79DF100750A92 /* UIImage+image.m */,
 				4CF547781FD53A9900175B93 /* Main.storyboard */,
 				4CF5477B1FD53A9900175B93 /* Assets.xcassets */,
 				4CF5477D1FD53A9900175B93 /* LaunchScreen.storyboard */,
@@ -140,6 +152,23 @@
 			path = qihuobaodeUITests;
 			sourceTree = "<group>";
 		};
+		8F0042B10F2CC2310919126F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDCD984BC3D617BBAB2E99E1 /* libPods-qihuobaode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946A40A0B6C01608C75EC59E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB8FA8884039A47F5F5703C8 /* Pods-qihuobaode.debug.xcconfig */,
+				02A6BE0ADA788B6453A9F64D /* Pods-qihuobaode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CF547991FD53A9900175B93 /* Build configuration list for PBXNativeTarget "qihuobaode" */;
 			buildPhases = (
+				F6E5EFDD615DB1979D1D9F74 /* [CP] Check Pods Manifest.lock */,
 				4CF547681FD53A9900175B93 /* Sources */,
 				4CF547691FD53A9900175B93 /* Frameworks */,
 				4CF5476A1FD53A9900175B93 /* Resources */,
+				294BDC1133938BDBDADE7901 /* [CP] Embed Pods Frameworks */,
+				15A1E9646D5E0CA408C3155C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,12 +301,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15A1E9646D5E0CA408C3155C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qihuobaode/Pods-qihuobaode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		294BDC1133938BDBDADE7901 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-qihuobaode/Pods-qihuobaode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6E5EFDD615DB1979D1D9F74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qihuobaode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CF547681FD53A9900175B93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4CF547771FD53A9900175B93 /* ViewController.m in Sources */,
+				4CBB151A1FD79DF100750A92 /* UIImage+image.m in Sources */,
 				4CF547741FD53A9900175B93 /* AppDelegate.m in Sources */,
 				4CF547711FD53A9900175B93 /* main.m in Sources */,
 			);
@@ -423,6 +507,7 @@
 		};
 		4CF5479A1FD53A9900175B93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8FA8884039A47F5F5703C8 /* Pods-qihuobaode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MFBS55UZB;
@@ -435,6 +520,7 @@
 		};
 		4CF5479B1FD53A9900175B93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A6BE0ADA788B6453A9F64D /* Pods-qihuobaode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9MFBS55UZB;
@@ -510,6 +596,7 @@
 				4CF5479B1FD53A9900175B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF5479C1FD53A9900175B93 /* Build configuration list for PBXNativeTarget "qihuobaodeTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +605,7 @@
 				4CF5479E1FD53A9900175B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CF5479F1FD53A9900175B93 /* Build configuration list for PBXNativeTarget "qihuobaodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +614,7 @@
 				4CF547A11FD53A9900175B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
